@@ -1,0 +1,45 @@
+Screen {
+    background: $panel;
+}
+.some2 {
+    height: 100%;
+    
+}
+Input {
+    dock: bottom;
+    width: 100%;
+    height: 1;
+    padding: 0 1;
+    margin: 0 1 1 1;
+}
+
+#TitleWidget {
+    background: $background 50%;
+    dock: top;
+    height: 3;
+    padding: 0 0;
+    content-align: center middle;
+    margin: 1 2 0 2;
+}
+
+#results {
+    width: auto;
+    min-height: 100%;
+}
+
+#some {
+    margin: 0 0 0 2;
+}
+
+#logger {
+    width: auto;
+    min-height: 100%;
+    background: $background 0%;
+}
+
+.top-half {
+    background: $background 50%;
+    padding: 1 2;
+    margin: 1 2;
+    height: 100%;
+}
