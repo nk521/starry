@@ -1,4 +1,3 @@
-import vlc
 from youtube_dl import YoutubeDL
 import mpv
 
